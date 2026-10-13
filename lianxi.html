@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">lang设置语言 人类的语言
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <article>
+    <h1>一级标题</h1>
+    <p>段落</p>
+    <p>段落</p>
+    <footer></footer>
+  </article>
+  div和span没有语义
+  nav是导航栏的意思
+  <div>后面的class才有语意
+
+
+    aside侧边栏
+    main主内容
+    header头内容
+    footer脚内容
+    section区块
+
+    <h1 id="top">page1</h1>
+    <dl>
+
+      <dt title="pei liao">配料</dt>
+      <dd>葱</dd>
+      <dd>姜</dd>
+
+
+      <dt tabindex="1">主演</dt>文本框
+      <dd>刘</dd>
+      <dd>王</dd>
+      <dd><input type="text"></dd>
+      <dd><input type="text"></dd>tabindex="1"这个是光标的跳动顺序123
+      作用是输入文本框 焦点跳转顺序
+
+
+
+
+
+
+      <dt class="price red big">一个属性</dt>
+      <dd id="item9527">例子1</dd>
+      <dd id="1001" style="color: brown;font-size: 60px;">例子2</dd>
+      style设置样式
+
+      页面内跳转
+      <a href="#top">跳到顶部</a>
+      <a href="#low">跳到底部</a>
+
+      可以用 <div id="low"></div>放置标签
+
+      表单
+      <form target="_blank" action="http://www.qwqweqwe.com/"> 下面这些需要包在form这个表单里
+
+        <button>按钮</button>提交表单
+        <input type="text">type决定了输入的效果
+        <input type="number" name="number">只输入数字
+        <input type="email" name="youxiang">邮箱
+        <button>按钮</button>
+        <input type="range" max="20" min="5" step="0.5">
+        <input type="color" name="mycoloer">
+        <input type="file">
+
+
+        <label>
+          <input type="radio" name="一组" value="man">1man选中字也可以选上
+        </label>
+
+
+
+
+        <input type="radio" name="一组" value="woman" id="9527">
+
+        <label for="9527">2woman</label>
+
+
+        <input type="radio" name="一组" value="gay">3gay
+
+
+
+
+
+        <input type="checkbox" name="like">选项
+        <input type="checkbox" name="like">
+        <input type="checkbox" name="like">
+        可以多选
+        <input type="reset" value="重新填写">重置表单的内容按钮
+        可以改按钮的内容
+        <input type="submit">提交
+        <input type="button" value="按钮">没啥作用
+        <button type="submit">1</button>
+        <button type="reset">2重置</button>
+        <button type="button">3</button>
+
+        <fieldset disabled>字段 就是一个框子 框起来disabled禁用
+          <legend>起个名字</legend>
+        </fieldset>
+
+        <textarea name="" id=""> 多行框</textarea>
+        <textarea name="" id="" cols="10" rows="10">固定了</textarea>
+
+
+        <select name="city" multiple> 下拉框 选项 后面的意思是可以多选
+          <option value="这里给程序看">杭州</option>
+          <option value="0123">美国</option>
+          <option value="1234" selected disabled>驻马店 select默认选中 disabled 禁用</option>
+
+
+          <optgroup label="华中"></optgroup>
+          类似大区的意
+        </select>
+
+      </form>
+
+    </dl>
+
+    <progress value="0.8" min="10" max="60">进度条</progress>
+
+
+
+    <form action="https://www.bing.com/search" target="_blank">
+      <input type="text" name="q">
+      <input type="hidden" name="yincang" value="cang">隐藏表单项
+      <button type="submit">搜索</button>
+      <input type="password">密码 输入的都是。。。
+
+
+
+      <input type="file" multiple accept=".js,.css,image/*">文件选择框 选择可接受的格式
+      <input type="date">
+      <input type="datetime-local">当地时间
+      <input type="time">
+      <input type="week">
+      required 必须输入内容才可以提交
+      <input type="text" placeholder="占位符 输入后消失" autofocus>自动焦点
+      button不写type属性 默认是submit就是提交
+      input的type的button按钮 没办法在里面改按钮上的字体
+      所以最好用 button
+    </form>
+    因为q是搜索 所以起名为q建立一个提交框 就可以搜索了
+
+    <fieldset disabled> 禁用
+      <legend> 方框上的文字
+
+      </legend>
+
+    </fieldset>
+
+    &lt;span>转义字符
+    &quot;双引号
+    &#61 十进制的61对应的就是=
+    &#x61 16进制
+    &ltspan>
+    &amp &的转义符
+    空格 &nbsp或者&#160就是空格
+
+    <pre>
+ 按输入格式     输出
+ </pre>
+
+    <button>按我
+    </button>
+
+
+    表格
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
+
+
+
+https://www.bing.com/search
+?
+q=1 这是输入的内容 query
+&
+form=ANNTH1
+&
+refig=6acbb118c61a479095e5d2d0415ef183
+&
+pc=DCTS
+属性名=属性值
