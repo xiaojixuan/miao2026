@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+
+  表格
+  <table border="1"> 这个是边框的粗细
+
+    <caption>表格上面的字</caption>
+
+    <thead>
+      <tr>
+        <th rowspan=2>姓名</th>
+        <th>学号</th>
+        <th>分数</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td rowspan="2" colspan="2">张阿三</td>
+        <td>001</td>
+        <td>100</td>
+      </tr>
+
+      <tr>
+        <td>张阿三</td>
+        <td>001</td>
+        <td>100</td>
+      </tr>
+
+
+    </tbody> 甚至tbody都可以不要
+
+
+
+
+    表格的跨行跨列
+    span跨越
+    column列
+    row行
+
+  </table>
+
+  <table border="1">
+
+    <tbody>
+
+      <tr>
+        <td colspan="2">1</td>
+        <td rowspan="2">1</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">2</td>
+        <td>2</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">3</td>
+      </tr>
+
+    </tbody>
+
+  </table>
+
+  >format格式化文档
+
+  col和colgroup
+  <table border="1" cellspacing="0" bordercolor="red">间隔变成0了 间隔线红色
+    <col bgcolor="black" width="200" span="2">200宽 黑色 前两列都这样
+    <col>
+    <colgroup>
+
+    </colgroup>
+    <tbody>
+      <tr>
+        <th bgcolor="red">背景颜色</th>
+        <th>2</th>
+      </tr>
+      <tr>
+        <th>34</th>
+        <th>123</th>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <marquee behavior="" direction="up">up或down控制方向四个方向
+    滑动
+  </marquee>
+
+  <iframe src="" frameborder="0" name="名字">放网页进去
+
+  </iframe>
+  <a href="" target="iframe的那个名字">
+    可以在iframe的小窗口打开a链接的网页
+  </a>
+  <a href="" target="_parent">在父窗体打开</a>
+  top是在最外层窗口打开
+
+  在iframe放一个p标签 万一ifream不支持 可以显示p内的 消息
+  P<sub>1</sub>
+  2<sup>3</sup>
+  <code>表示代码</code>
+  <pre>保留格式</pre>
+  <video src="qqq.MP4" controls>音频</video>
+  <audio src="" controls>视频</audio>
+</body>
+
+可访问性
+<select name="" id="">
+  <option value="">下拉</option>
+</select>
+
+
+</html>
